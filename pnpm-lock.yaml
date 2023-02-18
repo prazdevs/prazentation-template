@@ -4,11 +4,11 @@ specifiers:
   '@iconify-json/noto': ^1.1.11
   '@iconify-json/noto-v1': ^1.1.7
   '@slidev/cli': ^0.40.3
-  slidev-theme-comfy: '*'
+  slidev-theme-comfy: latest
 
 dependencies:
   '@slidev/cli': 0.40.3_postcss@8.4.21
-  slidev-theme-comfy: 0.1.0
+  slidev-theme-comfy: 0.2.0
 
 devDependencies:
   '@iconify-json/noto': 1.1.11
@@ -3317,8 +3317,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /slidev-theme-comfy/0.1.0:
-    resolution: {integrity: sha512-SMo5qbD+LIy9evrX4NFzNMKSbLnB+Hd5kNHpakPz+OM8PaS0AejA9h4FozxgKsiS2VwU+wOrV3JXYvT/3DXa1g==}
+  /slidev-theme-comfy/0.2.0:
+    resolution: {integrity: sha512-c/fFHXdFQDZ+JbSzErAmRsO6apNjHGNLaImasnoerZhWcmfvOZ2YqsXbrYrV/a06b+DUqd66NiDg3qiaYbgYZg==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@catppuccin/palette': 0.1.6

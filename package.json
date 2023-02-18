@@ -1,5 +1,6 @@
 {
   "name": "prazentation-template",
+  "license": "MIT",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
@@ -7,7 +8,7 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.40.3",
-    "slidev-theme-comfy": "*"
+    "slidev-theme-comfy": "^0.4.0"
   },
   "devDependencies": {
     "@iconify-json/noto": "^1.1.11",
