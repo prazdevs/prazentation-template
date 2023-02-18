@@ -1,12 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/noto': ^1.1.11
+  '@iconify-json/noto-v1': ^1.1.7
   '@slidev/cli': ^0.40.3
   slidev-theme-comfy: '*'
 
 dependencies:
   '@slidev/cli': 0.40.3_postcss@8.4.21
   slidev-theme-comfy: 0.1.0
+
+devDependencies:
+  '@iconify-json/noto': 1.1.11
+  '@iconify-json/noto-v1': 1.1.7
 
 packages:
 
@@ -570,6 +576,18 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/noto-v1/1.1.7:
+    resolution: {integrity: sha512-Fr8tbt9pMsDuZn8i93T8eTBO8ZEfLLo+mcsVTP+UmuAAGYTSVjCsHtJLKGCfLZY46PGMgDah9CMixReiY1im6g==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/noto/1.1.11:
+    resolution: {integrity: sha512-XRQa8al8GKiDm8j/wqR7kU5IQ7SNCB9h3qhqSZ7uZ8YSOZfOdNuYTlyakhEKUHAiXKjfRldoBkhtl+sVNyqSPQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph/1.1.4:
     resolution: {integrity: sha512-2A3+G/bvYB+ab1QL4SIsXVECvjSkSg+smNdWAg30QlksyZ1bI7Zh3wzyZCA2saDJPkVGyMJHSLI5EXExk/jmnQ==}
     dependencies:
@@ -578,7 +596,6 @@ packages:
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils/2.1.4:
     resolution: {integrity: sha512-7vzsYIvxv5Hng0MNEtSSnyMBD/+zqnORqmKiYsSgpMBGSz1r93URgBZHPYCZ1/gpoaVstYW4/SVLGCMJBNMCLQ==}

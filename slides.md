@@ -7,20 +7,25 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 ---
 
-Welcome to Slidev
+Creating nice slides with Slidev
 
 ::subtitle::
 
-Presentation slides for developers
+or how to look like you know what you're doing...
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+
 -->
 
 ---
+layout: intro
+image: sacha.png
+---
 
-```ts
-const myFunc() {
-  console.log('it should do smth ');
-}
-```
+# I'm Sacha
+
+- <img src="/zenika.png" class="inline-block mr-1 -mt-1" width="28.5" /> Frontend consultant @ <a href="https://zenika.com">Zenika</a>
+- <noto-v1-flag-for-flag-france class="mr-1" /> I'm from France
+- <noto-guitar class="mr-1" /> I'm a bass player
+- <noto-artist-palette class="mr-1" /> I'm also a cosplayer
+- <noto-smiling-cat-with-heart-eyes class="mr-1" /> And I love open source !

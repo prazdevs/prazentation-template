@@ -1,6 +1,5 @@
 {
   "name": "prazentation-template",
-  "private": true,
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
@@ -9,5 +8,9 @@
   "dependencies": {
     "@slidev/cli": "^0.40.3",
     "slidev-theme-comfy": "*"
+  },
+  "devDependencies": {
+    "@iconify-json/noto": "^1.1.11",
+    "@iconify-json/noto-v1": "^1.1.7"
   }
 }
