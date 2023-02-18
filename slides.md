@@ -1,10 +1,12 @@
 ---
-theme: comfy
+title: Template
+titleTemplate: '%s · prazentation'
 info: |
-  ## Slidev Starter Template
+  # Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
+theme: comfy
 ---
 
 Creating nice slides with Slidev
@@ -19,7 +21,7 @@ or how to look like you know what you're doing...
 
 ---
 layout: intro
-image: sacha.png
+image: /sacha.png
 ---
 
 # I'm Sacha
