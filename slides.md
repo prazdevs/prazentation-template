@@ -31,3 +31,24 @@ image: /sacha.png
 - <noto-guitar class="mr-1" /> I'm a bass player
 - <noto-artist-palette class="mr-1" /> I'm also a cosplayer
 - <noto-smiling-cat-with-heart-eyes class="mr-1" /> And I love open source !
+
+---
+layout: thanks
+---
+
+Thanks!
+
+::socials::
+
+<social>
+  <template #icon><openmoji-mastodon /></template>
+  <a href="https://praz.red/mastodon">praz.red/mastodon</a>
+</social>
+<social>
+  <template #icon><openmoji-github /></template>
+  <a href="https://praz.red/github">praz.red/github</a>
+</social>
+<social>
+  <template #icon><openmoji-twitter /></template>
+  <a href="https://praz.red/twitter">praz.red/twitter</a>
+</social>

@@ -3,16 +3,18 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify-json/noto': ^1.1.11
   '@iconify-json/noto-v1': ^1.1.7
+  '@iconify-json/openmoji': ^1.1.22
   '@slidev/cli': ^0.40.3
-  slidev-theme-comfy: latest
+  slidev-theme-comfy: ^0.4.0
 
 dependencies:
   '@slidev/cli': 0.40.3_postcss@8.4.21
-  slidev-theme-comfy: 0.2.0
+  slidev-theme-comfy: 0.4.0
 
 devDependencies:
   '@iconify-json/noto': 1.1.11
   '@iconify-json/noto-v1': 1.1.7
+  '@iconify-json/openmoji': 1.1.22
 
 packages:
 
@@ -584,6 +586,12 @@ packages:
 
   /@iconify-json/noto/1.1.11:
     resolution: {integrity: sha512-XRQa8al8GKiDm8j/wqR7kU5IQ7SNCB9h3qhqSZ7uZ8YSOZfOdNuYTlyakhEKUHAiXKjfRldoBkhtl+sVNyqSPQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/openmoji/1.1.22:
+    resolution: {integrity: sha512-2dTER7N333p4/K3Qu5kBqp61tqBA/8/jiIcT+n5+kYoxoAaFi5vCvtMz8QHYxMpb3kq7GOUi7vumcX2CmIAKiQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -3317,8 +3325,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /slidev-theme-comfy/0.2.0:
-    resolution: {integrity: sha512-c/fFHXdFQDZ+JbSzErAmRsO6apNjHGNLaImasnoerZhWcmfvOZ2YqsXbrYrV/a06b+DUqd66NiDg3qiaYbgYZg==}
+  /slidev-theme-comfy/0.4.0:
+    resolution: {integrity: sha512-s/d5cKs9NgPYo9MQgoyNnW7gRgK4bCiYqxF3drAIBlteE9hI4H+lacO4lDA0ZZOxE62LoNmgj1xR+88UcZlIvA==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@catppuccin/palette': 0.1.6

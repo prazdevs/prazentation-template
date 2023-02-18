@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@iconify-json/noto": "^1.1.11",
-    "@iconify-json/noto-v1": "^1.1.7"
+    "@iconify-json/noto-v1": "^1.1.7",
+    "@iconify-json/openmoji": "^1.1.22"
   }
 }
