@@ -1,12 +1,12 @@
 ---
 title: Template
-titleTemplate: '%s · prazentation'
 info: |
-  # Slidev Starter Template
-  Presentation slides for developers.
+  ## Talk title
+  Talk description
 
-  Learn more at [Sli.dev](https://sli.dev)
+  See some link [Sli.dev](/)
 theme: comfy
+titleTemplate: '%s · prazentation'
 ---
 
 Creating nice slides with Slidev
